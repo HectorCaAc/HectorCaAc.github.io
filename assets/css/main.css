@@ -4616,6 +4616,7 @@ input, select, textarea {
 	flex-wrap: wrap; /* Allows wrapping of items to the next line */
 	gap: 20px; /* Space between the items */
 	justify-content: center; /* Centers the list horizontally */
+	margin-bottom: 25px;
 	}
 
 
