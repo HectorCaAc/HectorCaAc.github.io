@@ -4574,6 +4574,18 @@ input, select, textarea {
 	}
 
 	/* SPECIAL CSS ATTRIBUTES FOR PROFILE PICTURE */
+	@media screen and (max-width: 600px) {
+		#profile_picture{
+			height: 360px;
+			width: 200px;
+			margin-left: 0%;
+			max-width: 200px;
+			max-height: 200px;
+			margin-left: 0px;
+		}
+
+	}
+
 	#profile_picture{
 		margin-top: 7rem;
 		margin-left: 7rem;
@@ -4581,6 +4593,8 @@ input, select, textarea {
 		height: 450px;
 		width: 450px;
 	}
+	
+	
 
 	/* css use for the experience use*/
 	.no-bullet{
